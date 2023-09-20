@@ -1,0 +1,79 @@
+{
+  "screen_id": "de249894-e0bb-4613-46a7-868c8bcb0868",
+  "title": "Fat Cat FAQ",
+  "title_tag": "FAQ",
+  "is_new_design": True,
+  "deactivate_in_roaming": False,
+  "configurations": [
+    {
+      "configuration_id": "9f289ef5-9025-3f35-5b2c-fd1783403833",
+      "priority": 1,
+      "conditions": [],
+      "blocks": [
+        {
+          "block_id": "fe605ff0-f364-e370-b580-4c12b239e1de",
+          "type": "title_with_text_universal",
+          "padding_top": 7.5,
+          "padding_bottom": 0,
+          "configurations": [
+            {
+              "configuration_id": "88966d2b-9ba9-461e-9f90-c04691a3c787",
+              "priority": 0,
+              "conditions": [],
+              "options": {
+                "title": "Как подобрать корм",
+                "title_font_size": 17,
+                "title_font_style": "regular",
+                "title_align": "left",
+                "subtitle": "Советы от лучших нутрициологов для меховых друзей",
+                "fixed_height": True
+              }
+            }
+          ]
+        },
+        {
+          "block_id": "fe605ff0-f364-e370-b580-4c12b239e1de",
+          "type": "title_with_text_universal",
+          "padding_top": 7.5,
+          "padding_bottom": 0,
+          "configurations": [
+            {
+              "configuration_id": "88966d2b-9ba9-461e-9f90-c04691a3c787",
+              "priority": 0,
+              "conditions": [],
+              "options": {
+                "title": "Дела туалетные",
+                "title_font_size": 17,
+                "title_font_style": "regular",
+                "title_align": "left",
+                "subtitle": "Как выбрать лучший филлер для туалета",
+                "fixed_height": True
+              }
+            }
+          ]
+        },
+        {
+          "block_id": "fe605ff0-f364-e370-b580-4c12b239e1de",
+          "type": "title_with_text_universal",
+          "padding_top": 7.5,
+          "padding_bottom": 0,
+          "configurations": [
+            {
+              "configuration_id": "88966d2b-9ba9-461e-9f90-c04691a3c787",
+              "priority": 0,
+              "conditions": [],
+              "options": {
+                "title": "Уход за шерстью",
+                "title_font_size": 17,
+                "title_font_style": "regular",
+                "title_align": "left",
+                "subtitle": "Зимой и летом мягкая и блестящая",
+                "fixed_height": True
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
