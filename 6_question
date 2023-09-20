@@ -1,0 +1,7 @@
+client = {"id": 1, "name": "Ivan", "surname": "Ivanov"}
+video = {
+    "camera": {"vendor": ["Hikvision", "Dahua"], "type": ["cylinder", "dome", "PTZ"], "cost": [100, 150, 250], "color": ["white", "black"]},
+    "online_view": [{"Yes": [{"link": 'https://www.camera.'+ (client["name"] + client["surname"]) +'.com'}, "Play", "Pause", "Stop", "Scroll_Up", "Scroll_Down"]}, "No"]
+    }
+
+print(video["online_view"][0]["Yes"][0]["link"]) #Пример вывода ссылки
